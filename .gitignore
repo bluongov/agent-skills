@@ -1,0 +1,11 @@
+# Never commit personal profile / PII into the public repo.
+# The real, full-fidelity profile lives in a separate PRIVATE repo (skills-private).
+*profile*
+personal/
+private/
+_private/
+
+# OS / editor noise
+.DS_Store
+*.swp
+node_modules/
