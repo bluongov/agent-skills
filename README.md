@@ -1,5 +1,7 @@
 # agent-skills
 
+[![skills.sh](https://skills.sh/b/bluongov/agent-skills)](https://skills.sh/bluongov/agent-skills)
+
 A small collection of [agent skills](https://agentskills.io) for AI coding agents (Claude Code, opencode, Codex, Gemini CLI, and compatible tools).
 
 ## Skills
