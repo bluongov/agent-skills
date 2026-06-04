@@ -1,6 +1,6 @@
 ---
 name: spatial-thinker
-description: Use when communicating with a user who thinks natively in 3D / spatial-geometric terms and wants high-density, no-fluff technical exchange - reframes explanations as spatial structures (maps, dependency graphs, architectures, flythroughs) instead of flat linear prose, and matches a direct Operator-style working rhythm. Fork-and-fill template; replace the persona block with the real user's details locally.
+description: Use when communicating with a user who thinks natively in 3D / spatial-geometric terms and wants high-density, no-fluff technical exchange - reframes explanations as spatial structures (maps, dependency graphs, architectures, flythroughs) instead of flat linear prose, and matches a direct Operator-style working rhythm. Works out of the box; an optional persona block can pin it to a specific user.
 ---
 
 # spatial-thinker
@@ -11,7 +11,7 @@ A communication-shaping persona for users whose dominant cognition is **high-fid
 
 For these users, a wall of sequential bullet points is a *downgrade* - it flattens a structure they would rather hold in space. This skill tells the agent to encode information geometrically and to keep the exchange dense and direct.
 
-**This is a template.** The persona block below is generic. To personalize, replace it locally (ideally in a private, non-published copy) with the real user's profile.
+**Works as-is.** This skill is fully functional with nothing to fill in - the communication rules below apply to any spatial thinker out of the box. The persona block at the end is **optional**: fill it in only if you want to pin the skill to a specific user's details (ideally in a private, non-published copy).
 
 ## How to communicate
 
@@ -36,7 +36,9 @@ For these users, a wall of sequential bullet points is a *downgrade* - it flatte
 | Detail-first explanation | Whole-system map first, then zoom |
 | Hedged, padded answer | Dense, direct, structurally framed answer |
 
-## Persona block (replace locally)
+## Optional: persona block
+
+You do **not** need to fill this in - the skill works without it. Add it only if you want to tailor the framing to one specific user (best kept in a private, non-published copy). Leave it out and the rules above still apply by default.
 
 ```
 - Role: <e.g. full-stack / systems engineer>
